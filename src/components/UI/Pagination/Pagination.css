@@ -1,0 +1,44 @@
+.Pagination {
+  clear:both;
+  width:85%;
+  margin-left:20px;
+  position:relative;
+  padding-bottom: 50px;
+}
+
+.Pagination a {
+  background-color: #00162c;
+  height:25px;
+  padding: 10px;
+  color:white;
+  text-decoration: none;
+  display: block;
+  height: 20px;
+  width: auto;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Pagination a:hover {
+  background-color: #7b9e83;
+}
+
+.Pagination .previous {
+  position: absolute;
+  top:20px;
+  left:0px;
+}
+
+.Pagination .next {
+  position: absolute;
+  top:20px;
+  right:0px;
+}
+
+.Pagination .pageNumber {
+  position:absolute;
+  top:30px;
+  left:45%;
+  font-weight: bold;
+  color: #000000
+}
